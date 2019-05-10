@@ -2,77 +2,87 @@
   "countries": [
     {
       "id": "1",
-      "name": "Кипр",
-      "cities": [1, 2]
+      "name": "Кипр"
     },
     {
       "id": "2",
-      "name": "Турция",
-      "cities": [2, 3]
+      "name": "Турция"
     }
   ],
   "cities": [
     {
       "id": "1",
       "name": "Ларнака",
-      "hotels": [1, 2]
+      "country": "1"
     },
     {
       "id": "2",
       "name": "Пафос",
-      "hotels": [3, 4]
+      "country": "1"
+    },
+    {
+      "id": "3",
+      "name": "Кемер",
+      "country": "2"
     }
   ],
   "hotels": [
     {
       "id": "1",
       "name": "Hotel 1",
-      "rooms": [1, 2]
+      "city": "1"
     },
     {
       "id": "2",
       "name": "Hotel 2",
-      "rooms": [3, 4]
+      "city": "2"
     },
     {
       "id": "3",
       "name": "Hotel 3",
-      "rooms": [5, 6]
+      "city": "3"
     },
     {
       "id": "4",
       "name": "Hotel 4",
-      "rooms": [7, 8]
+      "city": "1"
     }
   ],
   "rooms": [
     {
       "id": "1",
-      "type": "type 1"
+      "type": "type 1",
+      "hotel": "1"
     },
     {
       "id": "2",
-      "type": "type 2"
+      "type": "type 2",
+      "hotel": "2"
     },
     {
       "id": "3",
-      "type": "type 3"
+      "type": "type 3",
+      "hotel": "3"
     },
     {
       "id": "4",
-      "type": "type 4"
+      "type": "type 4",
+      "hotel": "4"
     },
     {
       "id": "5",
-      "type": "type 5"
+      "type": "type 5",
+      "hotel": "3"
     },
     {
       "id": "6",
-      "type": "type 6"
+      "type": "type 6",
+      "hotel": "2"
     },
     {
       "id": "7",
-      "type": "type 7"
+      "type": "type 7",
+      "hotel": "1"
     }
   ]
 }
