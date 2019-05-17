@@ -52,36 +52,43 @@
     {
       "id": "1",
       "type": "type 1",
+      "price": "2000",
       "hotel": "1"
     },
     {
       "id": "2",
       "type": "type 2",
+      "price": "2500",
       "hotel": "2"
     },
     {
       "id": "3",
       "type": "type 3",
+      "price": "2000",
       "hotel": "3"
     },
     {
       "id": "4",
       "type": "type 4",
+      "price": "5000",
       "hotel": "4"
     },
     {
       "id": "5",
       "type": "type 5",
+      "price": "2700",
       "hotel": "3"
     },
     {
       "id": "6",
       "type": "type 6",
+      "price": "20000",
       "hotel": "2"
     },
     {
       "id": "7",
       "type": "type 7",
+      "price": "2000",
       "hotel": "1"
     }
   ]
