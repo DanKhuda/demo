@@ -123,5 +123,8 @@
       "price": "2000",
       "hotel": "1"
     }
+  ],
+  "images" : [
+  "/images/slide-1.jpg", "/images/slide-2.jpg", "/images/slide-3.jpg"
   ]
 }
