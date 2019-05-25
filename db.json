@@ -37,7 +37,8 @@
         "relax": ["Бассейн", "Фитнес-клуб", "Сауна", "Массаж"]
       },
       "stars": "4",
-      "photos": ["../image/1", "../image/2", "../image/3"],
+      "photos": ["/images/hotels/hotel-1/image-1", "./images/hotels/hotel-1/image-2", "/images/hotels/hotel-1/image-3",
+                "/images/hotels/hotel-1/image-4", "/images/hotels/hotel-1/image-5"],
       "city": "1"
     },
     {
