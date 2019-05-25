@@ -113,8 +113,8 @@
       "type": "type 4",
       "price": "5000",
       "amount": "1",
-      "departure": "27.05.2019",
-      "arrival": "27.05.2019",
+      "departure": "28.05.2019",
+      "arrival": "29.05.2019",
       "hotel": "4"
     },
     {
@@ -122,7 +122,7 @@
       "type": "type 5",
       "price": "2700",
       "amount": "1",
-      "departure": "26.05.2019",
+      "departure": "27.05.2019",
       "arrival": "31.05.2019",
       "hotel": "3"
     },
@@ -131,7 +131,7 @@
       "type": "type 6",
       "price": "20000",
       "amount": "1",
-      "departure": "24.05.2019",
+      "departure": "25.05.2019",
       "arrival": "30.05.2019",
       "hotel": "2"
     },
@@ -140,7 +140,7 @@
       "type": "type 7",
       "price": "2000",
       "amount": "1",
-      "departure": "25.05.2019",
+      "departure": "26.05.2019",
       "arrival": "28.05.2019",
       "hotel": "1"
     }
