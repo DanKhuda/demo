@@ -64,7 +64,8 @@
         "relax": ["Бассейн", "Фитнес-клуб", "Сауна", "Массаж"]
       },
       "stars": "3",
-      "photos": ["../image/1", "../image/2", "../image/3"],
+      "photos": ["/images/hotels/hotel-1/image-1.jpg", "/images/hotels/hotel-1/image-2.jpg", "/images/hotels/hotel-1/image-3.jpg",
+                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg"],
       "city": "3"
     },
     {
@@ -77,7 +78,8 @@
         "relax": ["Бассейн", "Фитнес-клуб", "Сауна", "Массаж"]
       },
       "stars": "5",
-      "photos": ["../image/1", "../image/2", "../image/3"],
+      "photos": ["/images/hotels/hotel-1/image-1.jpg", "/images/hotels/hotel-1/image-2.jpg", "/images/hotels/hotel-1/image-3.jpg",
+                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg"],
       "city": "1"
     }
   ],
