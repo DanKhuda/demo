@@ -38,7 +38,7 @@
       },
       "stars": "4",
       "photos": ["/images/hotels/hotel-1/image-1.jpg", "/images/hotels/hotel-1/image-2.jpg", "/images/hotels/hotel-1/image-3.jpg",
-                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg"],
+                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg", "/images/hotels/hotel-1/image-6.jpg"],
       "city": "1"
     },
     {
@@ -65,7 +65,7 @@
       },
       "stars": "3",
       "photos": ["/images/hotels/hotel-1/image-1.jpg", "/images/hotels/hotel-1/image-2.jpg", "/images/hotels/hotel-1/image-3.jpg",
-                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg"],
+                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg", "/images/hotels/hotel-1/image-6.jpg"],
       "city": "3"
     },
     {
@@ -79,7 +79,7 @@
       },
       "stars": "5",
       "photos": ["/images/hotels/hotel-1/image-1.jpg", "/images/hotels/hotel-1/image-2.jpg", "/images/hotels/hotel-1/image-3.jpg",
-                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg"],
+                "/images/hotels/hotel-1/image-4.jpg", "/images/hotels/hotel-1/image-5.jpg", "/images/hotels/hotel-1/image-6.jpg"],
       "city": "1"
     }
   ],
