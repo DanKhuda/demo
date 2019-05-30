@@ -2,11 +2,13 @@
   "countries": [
     {
       "id": "1",
-      "name": "Кипр"
+      "name": "Кипр",
+      "departureCity": "Киев"
     },
     {
       "id": "2",
-      "name": "Турция"
+      "name": "Турция",
+      "departureCity": "Одесса"
     }
   ],
   "cities": [
