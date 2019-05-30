@@ -1,1 +1,501 @@
-
+{
+    "countries": [
+    {
+        "id": "1",
+        "name": "Кипр",
+        "departureCity": "Киев"
+    },
+    {
+        "id": "2",
+        "name": "Турция",
+        "departureCity": "Одесса"
+    },
+    {
+        "id": "3",
+        "name": "Италия",
+        "departureCity": "Львов"
+    },
+    {
+        "id": "4",
+        "name": "Франция",
+        "departureCity": "Киев"
+    },
+    {
+        "id": "5",
+        "name": "Египет",
+        "departureCity": "Харьков"
+    },
+    {
+        "id": "6",
+        "name": "ОАЭ",
+        "departureCity": "Львов"
+    }
+],
+    "cities": [
+    {
+        "id": "1",
+        "name": "Ларнака",
+        "country": "1"
+    },
+    {
+        "id": "2",
+        "name": "Пафос",
+        "country": "1"
+    },
+    {
+        "id": "3",
+        "name": "Анталья",
+        "country": "2"
+    },
+    {
+        "id": "4",
+        "name": "Кемер",
+        "country": "2"
+    },
+    {
+        "id": "6",
+        "name": "Ривьера-Ди-Улиссе",
+        "country": "3"
+    },
+    {
+        "id": "7",
+        "name": "Ницца",
+        "country": "4"
+    },
+    {
+        "id": "8",
+        "name": "Канны",
+        "country": "4"
+    },
+    {
+        "id": "9",
+        "name": "Хургада",
+        "country": "5"
+    },
+    {
+        "id": "10",
+        "name": "Шарм-Эль-Шейх",
+        "country": "5"
+    },
+    {
+        "id": "11",
+        "name": "Дубай",
+        "country": "6"
+    }
+],
+    "hotels": [
+    {
+        "id": "1",
+        "name": "Sun Mull Beach Hotel",
+        "description": "Отель с панорамным видом на пальмовую аллею Финикудес.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["WI-FI в номере", "Кондицеонер", "Фен", "Мини-бар"],
+            "meal": ["OB (Без питания)", "BB (Завтрак)", "AL (Все включено)"],
+            "relax": ["Бассейн", "Фитнес-клуб", "Сауна", "Массаж"]
+        },
+        "stars": "4",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "1"
+    },
+    {
+        "id": "2",
+        "name": "Elysium Darsugak",
+        "description": "Роскошный отель в Пафосе и специальные условия для отдыха зимой!",
+        "features": {
+            "beach": "Песчаный+галька",
+            "room": ["WI-FI", "Кондицеонер", "Фен", "Мини-бар", "Сейф", "ТВ", "Халаты и тапочки"],
+            "meal": ["HP (Полупансион)", "FP (Полный пансион)", "BB (Завтрак)"],
+            "relax": ["2 бассейна", "Аэробика", "Бильярд", "Сауна", "Теннис"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "2"
+    },
+    {
+        "id": "3",
+        "name": "Rixos Kolode Antalya",
+        "description": "Большая утопающаю в зелени территория.",
+        "features": {
+            "beach": "Галечный",
+            "room": ["WI-FI в номере", "Кондицеонер", "Фен", "Мини-бар"],
+            "meal": ["HP (Полупансион)", "FP (Полный пансион)", "BB (Завтрак)", "AL (Все включено)"],
+            "relax": ["СПА", "Детский клуб", "Открытый бассейн"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "3"
+    },
+    {
+        "id": "4",
+        "name": "Ozkaymak Galira Hotel",
+        "description": "Новый роскошный отель, оформленный в неповторимом восточном стиле.",
+        "features": {
+            "beach": "Галечный",
+            "room": ["ТВ", "Центральный кондицеонер", "Фен", "Доступ в интернет"],
+            "meal": ["UAL (Ультра все включено"],
+            "relax": ["Библиотека", "Магазины", "Амфитеатр"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "3"
+    },
+    {
+        "id": "5",
+        "name": "Romio Bunchak Hotel Kemer",
+        "description": "Отель находится в курортном поселке Кириш.",
+        "features": {
+            "beach": "Песчаный+галька",
+            "room": ["WI-FI", "Кондицеонер", "Фен", "ТВ"],
+            "meal": ["UAL (Ультра все включено"],
+            "relax": ["Легкая анимация", "Водные лыжи", "Открытый бассейн"]
+        },
+        "stars": "3",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "4"
+    },
+    {
+        "id": "7",
+        "name": "Fiordaliso Vovetto Shepello",
+        "description": "Красивый белоснежный отель Fiordaliso расположен в 500 м от песчаного пляжа.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["ТВ", "Кондицеонер", "Телефон"],
+            "meal": ["BB (завтрак)", "HP (Полупансион)"],
+            "relax": ["Открытый бассейн"]
+        },
+        "stars": "4",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "6"
+    },
+    {
+        "id": "8",
+        "name": "Villa Victoria Voicto",
+        "description": "Отель приветствует своих гостей в роскошной.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["WI-FI", "ТВ", "Кондицеонер", "Фен", "Сейф"],
+            "meal": ["BB (завтрак)"],
+            "relax": ["Сад", "Парковка"]
+        },
+        "stars": "4",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "7"
+    },
+    {
+        "id": "9",
+        "name": "Le Grand Omaliy Cannes",
+        "description": "Отель, расположенный на набережной.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["Доступ в интернет", "ТВ", "Кондицеонер", "Сейф"],
+            "meal": ["BB (завтрак)"],
+            "relax": ["Теннисный корт", "Джакузи", "Сауна", "Дискотека"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "8"
+    },
+    {
+        "id": "10",
+        "name": "Amarante Suprigante",
+        "description": "Отлично подходящий для отдыха или путешествия.",
+        "features": {
+            "beach": "Галечный",
+            "room": ["Мини-бар", "Спутниковое ТВ", "Кондицеонер", "Сейф"],
+            "meal": ["BB (завтрак)"],
+            "relax": ["Теннис", "Бассейн"]
+        },
+        "stars": "4",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "8"
+    },
+    {
+        "id": "11",
+        "name": "Jaz Stokal Star & Spa",
+        "description": "Гостеприимный отель второй линии.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["WI-FI", "Спутниковое ТВ", "Мини-бар", "Фен"],
+            "meal": ["AL (Все включено)"],
+            "relax": ["Теннис", "Бассейн"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "9"
+    },
+    {
+        "id": "12",
+        "name": "Charmillion White Line Park",
+        "description": "Клубный отель с аквапарком.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["WI-FI", "ТВ", "Кондицеонер", "Сейф", "Мини-бар"],
+            "meal": ["UAL (Ультра все включено)"],
+            "relax": ["Бассейны", "Аквапарк", "SPA", "Тренажерный зал"]
+        },
+        "stars": "4",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "10"
+    },
+    {
+        "id": "13",
+        "name": "Cataract Layalina Meks",
+        "description": "Расположен в 10 км от международного аэропорта Шарм-эль-Шейха.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["WI-FI", "Фен", "Кондицеонер", "Сейф"],
+            "meal": ["AL (Все включено)"],
+            "relax": ["Открытый бассейн"]
+        },
+        "stars": "3",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "10"
+    },
+    {
+        "id": "14",
+        "name": "Hilton Dubai Stiykiy Beach",
+        "description": "Великолепный отель всемирно известной отельной цепочки Hilton.",
+        "features": {
+            "beach": "Песчаный",
+            "room": ["ТВ (Цифровое)", "Кондицеонер", "Фен"],
+            "meal": ["OB (Без питания)", "BB (завтрак)", "HP (Полупансион)"],
+            "relax": ["Бассейн", "Фитнес-центр", "Настольный теннис", "Аэробика"]
+        },
+        "stars": "5",
+        "preview": "../image/1",
+        "photos": ["../image/1", "../image/2", "../image/3"],
+        "city": "11"
+    }
+],
+    "rooms": [
+    {
+        "id": "1",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "01.06.2019",
+        "arrival": "8.06.2019",
+        "type": "Studio",
+        "price": "41432",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "1"
+    },
+    {
+        "id": "2",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "03.07.2019",
+        "arrival": "10.07.2019",
+        "type": "Double Side Sea View",
+        "price": "49432",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "1"
+    },
+    {
+        "id": "3",
+        "people": "1",
+        "meal": "AL (Все включено)",
+        "departure": "03.07.2019",
+        "arrival": "11.07.2019",
+        "type": "Double Inland View",
+        "price": "38432",
+        "nights": "8",
+        "amount": "1",
+        "hotel": "1"
+    },
+    {
+        "id": "4",
+        "people": "2",
+        "meal": "HP (Полупансион)",
+        "departure": "15.06.2019",
+        "arrival": "22.06.2019",
+        "type": "Double Deluxe Inland View",
+        "price": "76971",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "2"
+    },
+    {
+        "id": "5",
+        "people": "3",
+        "meal": "FP (Полный пансион)",
+        "departure": "15.06.2019",
+        "arrival": "22.06.2019",
+        "type": "Royal Studio with Garden View",
+        "price": "111289",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "2"
+    },
+    {
+        "id": "7",
+        "people": "2",
+        "meal": "AL (все включено)",
+        "departure": "10.06.2019",
+        "arrival": "18.06.2019",
+        "type": "Double Inland View",
+        "price": "36432",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "3"
+    },
+    {
+        "id": "8",
+        "people": "2",
+        "meal": "AL (все включено)",
+        "departure": "10.06.2019",
+        "arrival": "18.06.2019",
+        "type": "Double Side Sea View",
+        "price": "45000",
+        "nights": "8",
+        "amount": "1",
+        "hotel": "3"
+    },
+    {
+        "id": "9",
+        "people": "3",
+        "meal": "UAL (Ультра все включено)",
+        "departure": "10.06.2019",
+        "arrival": "18.06.2019",
+        "type": "CITY",
+        "price": "32286",
+        "nights": "8",
+        "amount": "1",
+        "hotel": "4"
+    },
+    {
+        "id": "10",
+        "people": "2",
+        "meal": "UAL (Ультра все включено)",
+        "departure": "17.06.2019",
+        "arrival": "24.06.2019",
+        "type": "Standart",
+        "price": "45000",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "4"
+    },
+    {
+        "id": "11",
+        "people": "3",
+        "meal": "UAL (Ультра все включено)",
+        "departure": "17.06.2019",
+        "arrival": "24.06.2019",
+        "type": "Standart",
+        "price": "22779",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "5"
+    },
+    {
+        "id": "16",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "01.09.2019",
+        "arrival": "06.09.2019",
+        "type": "Standart",
+        "price": "27682",
+        "nights": "5",
+        "amount": "1",
+        "hotel": "7"
+    },
+    {
+        "id": "18",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "04.06.2019",
+        "arrival": "11.06.2019",
+        "type": "Garden View Room",
+        "price": "70311",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "8"
+    },
+    {
+        "id": "20",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "04.06.2019",
+        "arrival": "11.06.2019",
+        "type": "Deluxe City View",
+        "price": "94188",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "9"
+    },
+    {
+        "id": "22",
+        "people": "2",
+        "meal": "BB (Завтрак)",
+        "departure": "02.06.2019",
+        "arrival": "09.06.2019",
+        "type": "Standard Room",
+        "price": "42997",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "10"
+    },
+    {
+        "id": "24",
+        "people": "2",
+        "meal": "AL (Все включено)",
+        "departure": "04.06.2019",
+        "arrival": "11.06.2019",
+        "type": "Superior Room",
+        "price": "46557",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "11"
+    },
+    {
+        "id": "27",
+        "people": "2",
+        "meal": "UAL (Ультра все включено)",
+        "departure": "04.06.2019",
+        "arrival": "11.06.2019",
+        "type": "Standard Room",
+        "price": "25365",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "12"
+    },
+    {
+        "id": "29",
+        "people": "2",
+        "meal": "AL (Все включено)",
+        "departure": "14.07.2019",
+        "arrival": "21.07.2019",
+        "type": "Standard Room",
+        "price": "29268",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "13"
+    },
+    {
+        "id": "31",
+        "people": "2",
+        "meal": "BB (завтрак)",
+        "departure": "01.06.2019",
+        "arrival": "08.06.2019",
+        "type": "Deluxe Room Walk View",
+        "price": "35914",
+        "nights": "7",
+        "amount": "1",
+        "hotel": "14"
+    }
+]
+}
