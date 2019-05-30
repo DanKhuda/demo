@@ -3,42 +3,42 @@
     {
         "id": "1",
         "name": "Кипр",
-        "departureCity": ["Киев"]
+        "departureCity": "Киев"
     },
     {
         "id": "2",
         "name": "Турция",
-        "departureCity": ["Киев", "Одесса", "Харьков", "Львов"]
+        "departureCity": "Одесса"
     },
     {
         "id": "3",
         "name": "Италия",
-        "departureCity": ["Киев", "Львов"]
+        "departureCity": "Львов"
     },
     {
         "id": "4",
         "name": "Франция",
-        "departureCity": ["Киев"]
+        "departureCity": "Киев"
     },
     {
         "id": "5",
         "name": "Египет",
-        "departureCity": ["Киев", "Харьков", "Одесса"]
+        "departureCity": "Харьков"
     },
     {
         "id": "6",
         "name": "ОАЭ",
-        "departureCity": ["Киев"]
+        "departureCity": "Львов"
     },
     {
         "id": "7",
         "name": "Тайланд",
-        "departureCity": ["Киев"]
+        "departureCity": "Харьков"
     },
     {
         "id": "8",
         "name": "Мальдивы",
-        "departureCity": ["Киев"]
+        "departureCity": "Одесса"
     }
 ],
     "cities": [
