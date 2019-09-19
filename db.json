@@ -4,14 +4,33 @@
     {"id":2,"title":"Title 2","description":"Desc 2"},
     {"id":3,"title":"Title 3","description":"Desc 3"}
   ],
-  "articles":
+  "articles": {
+    "articles":
+    [
+    {
+    "id": 1,
+    "title": "Art Title 1",
+    "description": "Art Desc 1",
+    "categoryId": 1
+  },
   {
-  "articles": 
-     [
-    {"id":1,"title":"Art Title 1","description":"Art Desc 1","categoryId":1},
-    {"id":2,"title":"Art Title 2","description":"Art Desc 2","categoryId":1},
-    {"id":3,"title":"Art Title 3","description":"Art Desc 3","categoryId":2},
-    {"id":4,"title":"Art Title 4","description":"Art Desc 4","categoryId":3}
-  ]
-}
+    "id": 2,
+    "title": "Art Title 2",
+    "description": "Art Desc 2",
+    "categoryId": 1
+  },
+  {
+    "id": 3,
+    "title": "Art Title 3",
+    "description": "Art Desc 3",
+    "categoryId": 2
+  },
+  {
+    "id": 4,
+    "title": "Art Title 4",
+    "description": "Art Desc 4",
+    "categoryId": 3
+  }
+    ]
+  }
 }
